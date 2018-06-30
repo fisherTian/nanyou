@@ -29,3 +29,15 @@
 .storyBox .content .sub{
 	margin-bottom:30px;
 }
+
+@media only screen and (max-width: 1086px){
+	.storyBox .content{
+	    width: auto;
+    	padding: 0px 15px;
+    	font-size: 16px;
+	}
+	
+	.banner{
+		height: 122px;
+	}
+}

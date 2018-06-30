@@ -77,6 +77,7 @@ a{
 	height:50px;
 	background-color:#0066CC;
 	border-top:3px solid #990066;
+	position: relative;
 }
 
 .split_box{
@@ -118,4 +119,74 @@ a{
     text-align: center;
     font-size: 14px;
     margin-top: 140px;
+}
+
+
+.applogo,.appMenu,.appMenuBox{
+	display:none;
+}
+
+@media only screen and (max-width: 1086px){
+	body {
+    	min-width: 100%;
+	}
+	
+	.logo,.menu{
+		display:none;
+	}
+	
+	.applogo{
+		display:block;
+	    width: 50px;
+    	height: 50px;
+	}
+	
+	.shutter{
+		margin-top:0px!important;
+	}
+	
+	.appMenu{
+		display:block;
+		position: absolute;
+	    width: 30px;
+	    height: 23px;
+	    right: 10px;
+	    top: 11px;
+	}
+	
+	.appMenuBox{
+		position: absolute;
+	    z-index: 1000;
+	    background: #fff;
+	    width: 100%;
+	}
+	
+	.appMenuBox li{
+	    height: 30px;
+	    line-height: 30px;
+	    font-size: 14px;
+	    padding-left: 15px;
+	    border-bottom: 1px solid #ccc;
+	}
+	
+	.appMenuBox li:last-child{
+		border:none;
+	}
+	
+	.appMenuBox li a{
+	    width: 100%;
+    	display: inline-block;
+		color:#000000;
+	}
+	
+	.footer .content {
+		width: 280px;
+	    height: 380px;
+	}
+	
+	.footer .content li{
+		width:100%;
+		margin-bottom:30px;
+	}
+	
 }

@@ -2,3 +2,13 @@
 	text-align:center;
 	margin-bottom:30px;
 }
+
+@media only screen and (max-width: 1086px){
+	.shop img{
+		width:100%;
+	}
+	
+	.shop{
+		margin-bottom:0px;
+	}
+}
