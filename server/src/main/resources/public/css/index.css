@@ -1,0 +1,78 @@
+.imgListBox{
+	position:relative;
+}
+
+.imgList1{
+    margin: 0 auto;
+    width: 1320px;
+    top: 0px;
+    height: 540px;
+    background:#0066CC;
+}
+
+.imgListBox1 .img1 {
+    left: 71px;
+    position: absolute;
+    margin-left: calc((100% - 980px) * 0.5);
+    top: 41px;
+    width: 871px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.imgListBox1 .img2 {
+    left: 5px;
+    position: absolute;
+    margin-left: calc((100% - 980px) * 0.5);
+    top: 173px;
+    width: 541px;
+    height: 367px;
+    object-fit: cover;
+}
+
+.imgListBox1 .img3 {
+    left: 466px;
+    position: absolute;
+    margin-left: calc((100% - 980px) * 0.5);
+    top: 200px;
+    width: 481px;
+    height: 281px;
+    object-fit: cover;
+}
+
+.imgListBox2{
+	width:1320px;
+	margin:0 auto;
+}
+
+.imgListBox2 .imgItem{
+	width:33.33%;
+	float:left;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.imgListBox2 .imgItem .warp-party{
+	margin:0 auto;
+	width:255px;
+	height:255px;
+	display: block;
+    border-radius: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 8px solid rgba(255, 255, 255, 1);
+    overflow: hidden;
+}
+
+.imgListBox2 .imgItem .warp-round{
+	margin:0 auto;
+	width:255px;
+	height:255px;
+	display: block;
+    border-radius: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 8px solid rgba(255, 255, 255, 1);
+    overflow: hidden;
+	border-radius: 50%;
+}

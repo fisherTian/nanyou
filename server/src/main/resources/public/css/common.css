@@ -1,0 +1,121 @@
+body {
+    min-width: 1088px;
+    width: 100%;
+    background-color: #FFF;
+    font-family: "microsoft yahei";
+    height: 100%;
+}
+
+ul, li { list-style: none; }
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, div, span, input, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	cursor: pointer;
+    text-decoration: none;
+}
+
+.mt10{
+	margin-top:10px;
+}
+
+.mt50{
+	margin-top:50px!important;
+}
+
+.clear{
+	clear:both;
+}
+
+.navList{
+    width: 708px;
+    margin: 0 auto;
+    list-style: none;
+    height:60px;
+}
+
+.navList .navItem{
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    width: 225px;
+    height: 50px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.navList .navItem a{
+	display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.navList .navItem a .warp{
+	padding:0 5px;
+}
+
+.navList .navItem a .warp .name{
+	border-top: 1px solid #000000;
+	color:#000000;
+}
+
+.navList .navItem a .warp .name:hover{
+	border-top: 3px solid #CC3300;
+	color:#CC3300;
+}
+
+.navList .navItem.active a .warp .name{
+	border-top: 3px solid #CC3300;
+	color:#CC3300;
+} 
+
+.split_box_line{
+	height:50px;
+	background-color:#0066CC;
+	border-top:3px solid #990066;
+}
+
+.split_box{
+	height:50px;
+	background-color:#0066CC;
+}
+
+.logo{
+	text-align: center;
+}
+
+.footer{
+	position: relative;
+}
+
+.footer .content{
+	padding-top:30px;
+	padding-bottom:15px;
+	margin:0 auto;
+	width:980px;
+	height:160px;
+	color: #2D478B;
+	letter-spacing: 3px;
+}
+
+.footer .content li{
+	float:left;
+	width:33.33%;
+	text-align:center;
+	font-size:15px;
+}
+
+.footer .content li p{
+	margin-top:6px;
+}
+
+.footer .content .desc{
+	clear: both;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 140px;
+}

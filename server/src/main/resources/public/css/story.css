@@ -1,0 +1,31 @@
+.banner{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+
+.banner img{
+	width:100%;
+}
+
+.storyBox{
+	margin-top:30px;
+}
+
+.storyBox .content{
+	width:880px;
+	margin:0 auto;
+	text-align:center;
+	color: #2D478B;
+	letter-spacing: 0.1em;
+	font-size:20px;
+}
+
+.storyBox .content .title{
+	font-size:25px;
+	margin-bottom:30px;
+}
+
+.storyBox .content .sub{
+	margin-bottom:30px;
+}
