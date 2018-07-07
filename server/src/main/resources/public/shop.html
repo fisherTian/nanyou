@@ -19,7 +19,7 @@
 
 	<div class="split_box_line">
 	
-		<img class="applogo" src="https://static.wixstatic.com/media/fe07e0_ef8b45bf25694c89b2e3638443f49139~mv2.png/v1/fill/w_200,h_238,al_c,usm_0.66_1.00_0.01/fe07e0_ef8b45bf25694c89b2e3638443f49139~mv2.png">
+		<img class="applogo" id="phonelogo" onerror="this.src='images/default/JF_phoneLogo.png'" src="">
 		<img class="appMenu" src="images/menu.png" onclick="showMenu(event);">
 	</div>
 	
@@ -38,7 +38,7 @@
 	</div>
 	
 	<div class="logo mt10">
-		<img src="https://static.wixstatic.com/media/fe07e0_ef8b45bf25694c89b2e3638443f49139~mv2.png/v1/fill/w_715,h_164,al_c,usm_0.66_1.00_0.01/fe07e0_ef8b45bf25694c89b2e3638443f49139~mv2.png">
+		<img id="pclogo" onerror="this.src='images/default/JF_pclogo.png'" src="">
 	</div>
 
 	<div class="menu mt10">
@@ -74,14 +74,14 @@
 	</div>
 	
 	<div class="shop">
-		<img src="https://static.wixstatic.com/media/fe07e0_fcea63510a8745dd9d1240e5f4db25d6~mv2.jpg/v1/fill/w_1302,h_533,al_c,q_85/fe07e0_fcea63510a8745dd9d1240e5f4db25d6~mv2.webp" >
+		<img id="shopBanner" src="" onerror="this.src='images/default/JF_shop.png'">
 	</div>
 	
 	
 	<div class="split_box clear"></div>
 	
 	<div class="logo mt10">
-		<img style="width: 268px; height: 94px; object-fit: cover;" src="https://static.wixstatic.com/media/fe07e0_ef8b45bf25694c89b2e3638443f49139~mv2.png/v1/crop/x_316,y_0,w_1215,h_424/fill/w_268,h_94,al_c,usm_0.66_1.00_0.01/fe07e0_ef8b45bf25694c89b2e3638443f49139~mv2.png">
+		<img  id="smallLogo" style="width: 268px; height: 94px; object-fit: cover;" src="" onerror="this.src='images/default/JF_SmallLogo.png'">
 	</div>
 	
 	<div class="footer">
@@ -102,7 +102,7 @@
 				<li>
 					<p>关注官方微信二维码</p>
 					<p>
-						<img style="width:60px;height:60px;" src="images/qcode.jpg">
+						<img style="width:60px;height:60px;" id="qrcode" src="" onerror="this.src='images/default/JF_qcode.jpg'">
 					</p>
 				</li>
 				
@@ -114,5 +114,6 @@
 	</div>
 
 </body>
+<script src="./js/const.js" type="text/javascript" charset="utf-8"></script>
 <script src="./js/common.js" type="text/javascript" charset="utf-8"></script>
 </html>
