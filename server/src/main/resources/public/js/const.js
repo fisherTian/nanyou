@@ -22,9 +22,10 @@ var imgJson = {
 }
 
 var initImgSrc = function(){
+	var t = new Date().getTime();
 	for(var key in imgJson){
 		if($('#'+key)){
-			$('#'+key).attr('src',domain+imgJson[key]);
+			$('#'+key).attr('src',domain+imgJson[key]+'?t='+t);
 		}
 	}
 }
